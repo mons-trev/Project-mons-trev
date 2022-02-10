@@ -862,32 +862,32 @@ app.get('/final',function(req,res){
         
         ">
             <nav style="font-size: 4em; text-shadow: 2px 2px 2px rgba(3, 3, 3, 0.891);">Get Your ID
-              <h6 style="font-size: 0.5em; font-family: Gulim;">c 버튼을 누르면 복사됩니다<h6>
+              <h6 style="font-size: 0.5em; font-family: Gulim; margin: 40px;">c 버튼을 누르면 복사됩니다</h6>
           </nav>
           <div id="columns">
             <figure style="background: rgba(226, 233, 231, 0.06)">
-              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);" >basic ver</figcaption>
+              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);" >basic</figcaption>
               <figcaption>${list_print(1, list.name_birth)}</figcaption>
             </figure>
        
             <figure style="background: rgba(226, 233, 231, 0.06)">
-            <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">type ver</figcaption>
+            <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">typing</figcaption>
               <figcaption>${list_print(2, list.keyboardtyping)}</figcaption>
             </figure>
        
             <figure style="background: rgba(226, 233, 231, 0.06)">
-              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">transform ver</figcaption>
+              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">transform</figcaption>
               
               <figcaption>${list_print_include_arr(3, list.modify_name)}</figcaption>
             </figure>
        
             <figure style="background: rgba(226, 233, 231, 0.06)">
-            <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">translate ver</figcaption>
+            <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">translate</figcaption>
               <figcaption>${list_print_include_arr(4, list.trans_name)}</figcaption>
             </figure>
        
             <figure style="background: rgba(226, 233, 231, 0.06)">
-              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">reverse ver</figcaption>
+              <figcaption style="font-size:1.5em; background: rgba(226, 233, 231, 0.18);">reverse</figcaption>
               <figcaption>${list_print(5, list.reverse_name)}</figcaption>
             </figure>
        
@@ -909,7 +909,7 @@ app.get('/final',function(req,res){
   
    
     
-  app.listen(3000, function(){
+  app.listen(process.env.PORT || 3000, function(){
     console.log('Conneted 3000 port!');
 });
 
