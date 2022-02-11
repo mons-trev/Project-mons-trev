@@ -5,10 +5,10 @@ const { default: request } = require('sync-request');
 var mysql = require('sync-mysql');
 
 var db = new mysql({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'quswldms2709',
-  database : 'instapro'
+  host     : 'us-cdbr-east-05.cleardb.net',
+  user     : 'b7a965a82fe8df',
+  password : 'bd534b63',
+  database : 'heroku_3e0f2bb1afe4250'
 });
 
 
@@ -170,7 +170,7 @@ app.get('/', function(req, res){
 
   
  
-var total= db.query(`SELECT * FROM stat`)[0].count;
+var total= db.query(`SELECT * FROM insta`)[0].total;
 
   res.send(`
   <!doctype html>
@@ -352,10 +352,10 @@ var total= db.query(`SELECT * FROM stat`)[0].count;
 app.get('/final',function(req,res){
     
     
-    db.query('UPDATE stat SET count=count+1 WHERE total=1');
+    db.query('UPDATE insta SET total=total+1 WHERE id=1');
 
-    var total2= db.query(`SELECT * FROM stat`)[0].count;
-    console.log(total2);
+    var total2= db.query(`SELECT * FROM insta`)[0].total;
+    
     
     var korname= req.query.name;//"변지은"
     var birth= req.query.birth;//"000927"
@@ -375,7 +375,7 @@ app.get('/final',function(req,res){
     var fullromanname= romanlist[0][0]+romanlist[1][0];
     var fullromanname2= romanlist[1][0]+romanlist[0][0];
     var firstnamereverse= firstnamearr[0].split("").reverse().join("");
-    console.log(fullromanname);//return_full[0] : 성배열, return_full[1] : 이름배열
+    //console.log(fullromanname);//return_full[0] : 성배열, return_full[1] : 이름배열
     var k_e;
     //var e_f;
     var k_f;
