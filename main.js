@@ -6,8 +6,8 @@ var mysql = require('sync-mysql');
 
 var db = new mysql({
   host     : 'us-cdbr-east-05.cleardb.net',
-  user     : 'b7a965a82fe8df',
-  password : 'bd534b63',
+  user     : '-------',
+  password : '-------',
   database : 'heroku_3e0f2bb1afe4250'
 });
 
