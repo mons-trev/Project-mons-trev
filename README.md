@@ -1,2 +1,5 @@
-# Project-mons-trev
-인스타그램 id를 작명 해주는 플랫폼입니다.
+# GDSC 개인 프로젝트
+# About: SNS ID를 작명해주는 사이트
+### Tech Stack: html, css, js, nodejs, express, mysql
+### Api: naver papago api
+### Deploy: heroku
