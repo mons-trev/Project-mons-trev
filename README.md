@@ -4,7 +4,7 @@
 ### 🐒Api: naver papago api
 ### 🐒Deploy: heroku
 <img width="60%" src="https://user-images.githubusercontent.com/80975932/160277429-ce6f9f24-ead5-449b-88b4-e78eb3db41bb.PNG" title= "home"/>
-홈 화면
+홈 화면  <br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/160277495-20a2d67a-202f-490f-94d6-7a871042835a.PNG"/><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/160277498-c6ea8a32-9efa-420e-9af5-7f4e1123c29a.PNG"/><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/160277502-b5ebe1d9-eb73-4ccd-96a9-f4a9996221fa.PNG"/><br>
