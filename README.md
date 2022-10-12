@@ -5,7 +5,7 @@
 ### 🐒Api: naver papago api
 ### 🐒Deploy: heroku
 <p align="center">
-<img width="60%" src="https://user-images.githubusercontent.com/80975932/170258238-b881550e-0f31-4c58-a13f-86e3b19819cb.PNG" title= "home"/><br>
+<img width="60%" src="https://user-images.githubusercontent.com/80975932/195313811-458447c9-ef14-4fb2-9830-006e0fb2ce51.png" title= "home"/><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/170258480-99bb00c4-b507-45ba-87ff-f283e28f22d6.PNG" /><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/160277495-20a2d67a-202f-490f-94d6-7a871042835a.PNG" /><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/160277498-c6ea8a32-9efa-420e-9af5-7f4e1123c29a.PNG"/><br>
