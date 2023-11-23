@@ -1,9 +1,9 @@
-# 🎉GDSC award🎉
-## About: SNS ID를 작명해주는 사이트
+# GDSC award
+## About: SNS ID 작명 사이트
 
-### 🐒Tech Stack: html, css, js, nodejs, express, mysql
-### 🐒Api: naver papago api
-### 🐒Deploy: heroku
+### Tech Stack: html, css, js, nodejs, express, mysql
+### Api: naver papago api
+### Deploy: heroku
 <p align="center">
 <img width="60%" src="https://user-images.githubusercontent.com/80975932/195313811-458447c9-ef14-4fb2-9830-006e0fb2ce51.png" title= "home"/><br>
 <img width="40%" src="https://user-images.githubusercontent.com/80975932/170258480-99bb00c4-b507-45ba-87ff-f283e28f22d6.PNG" /><br>
